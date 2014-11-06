@@ -47,9 +47,6 @@ $bold: 700;
     opacity: 1;
 }
 .jumbotron h3 {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
     color:$jumbotron-font-color;
 }
 
@@ -59,13 +56,14 @@ $bold: 700;
 }
 
 .textinheader {
-    background-color:$primary-color;
-    opacity:0.8;
+    background-color: #3CC;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .image {
     margin: 10px 10px 10px 10px;
-    z-index:100;
 }
 
 

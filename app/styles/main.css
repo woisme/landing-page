@@ -5196,7 +5196,7 @@ button.close {
     display: none !important; } }
 @media (max-width: 480px) {
   h3 {
-    font-size: 8%; } }
+    font-size: 80%; } }
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -5222,9 +5222,6 @@ button.close {
   opacity: 1; }
 
 .jumbotron h3 {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
   color: #FFF; }
 
 .heading {
@@ -5233,11 +5230,12 @@ button.close {
 
 .textinheader {
   background-color: #3CC;
-  opacity: 0.8; }
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
 
 .image {
-  margin: 10px 10px 10px 10px;
-  z-index: 100; }
+  margin: 10px 10px 10px 10px; }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
