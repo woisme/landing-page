@@ -5214,19 +5214,17 @@ button.close {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   color: #FFF;
-  padding-top: 30px;
-  opacity: 1; }
+  padding-top: 30px; }
 
 .jumbotron h2 {
-  color: #FFF;
-  opacity: 1; }
-
-.jumbotron h3 {
   color: #FFF; }
 
+.jumbotron h3 {
+  color: #FFF;
+  padding: 20px; }
+
 .heading {
-  color: #222222;
-  opacity: 0.6; }
+  color: #222222; }
 
 .textinheader {
   background-color: #3CC;
