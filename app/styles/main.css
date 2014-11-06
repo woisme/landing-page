@@ -5194,6 +5194,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@media (max-width: 480px) {
+  h3 {
+    font-size: 8%; } }
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -5229,7 +5232,8 @@ button.close {
   opacity: 0.6; }
 
 .textinheader {
-  background-color: #3CC; }
+  background-color: #3CC;
+  opacity: 0.8; }
 
 .image {
   margin: 10px 10px 10px 10px;

@@ -12,8 +12,11 @@ $bold: 700;
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
-
-
+@media (max-width: 480px) {
+    h3 {
+        font-size: 80%;
+    }
+}
 
 .browsehappy {
     margin: 0.2em 0;
