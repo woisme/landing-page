@@ -1,0 +1,82 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+$roboto-font-stack: 'Roboto', sans-serif;
+$primary-color: #3CC;
+$jumbotron-font-color: #FFF;
+
+// Font Weights
+$light: 300;
+$regular: 500;
+$bold: 700;
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+
+
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+// Jumbotron
+.jumbotron {
+    background-image: url("../images/University Arms Cambridge Sketch.jpg");
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.jumbotron h1 {
+    font-weight:$bold;
+    font-family:$roboto-font-stack;
+    color: $jumbotron-font-color;
+    padding-top:30px;
+    opacity: 1;
+}
+
+.jumbotron h2 {
+    color:$jumbotron-font-color;
+    opacity: 1;
+}
+.jumbotron h3 {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:$jumbotron-font-color;
+}
+
+.heading {
+    color: #222222;
+    opacity:0.6;
+}
+
+.textinheader {
+    background-color:$primary-color;
+    opacity:0.8;
+}
+
+.image {
+    margin: 10px 10px 10px 10px;
+    z-index:100;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* To Be Changed */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
